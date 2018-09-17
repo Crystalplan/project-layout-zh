@@ -1,8 +1,8 @@
 # `/scripts`
 
-Scripts to perform various build, install, analysis, etc operations.
+脚本是去执行各种构建、安装、分析等操作。
 
-These scripts keep the root level Makefile small and simple.
+这些脚本保持在根级别小而简单的 Makefile (e.g., `https://github.com/hashicorp/terraform/blob/master/Makefile`)。
 
 Examples:
 

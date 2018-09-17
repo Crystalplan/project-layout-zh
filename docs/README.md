@@ -1,8 +1,8 @@
 # `/docs`
 
-Design and user documents (in addition to your godoc generated documentation).
+设计和用户文档（除了 godoc 生成的文档）。
 
-Examples:
+例子:
 
 * https://github.com/gohugoio/hugo/tree/master/docs
 * https://github.com/openshift/origin/tree/master/docs

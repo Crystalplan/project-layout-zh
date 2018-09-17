@@ -1,12 +1,12 @@
 # `/pkg`
 
-Library code that's ok to use by external applications (e.g., `/pkg/mypubliclib`). Other projects will import these libraries expecting them to work, so think twice before you put something here :-)
+可以由外部应用使用的库代码(e.g., `/pkg/mypubliclib`)。其他项目将导入这些库，并期望他们正常工作，所以在你放入代码时要三思 :-)。
 
-It's also a way to group Go code in one place when your root directory contains lots of non-Go components and directories making it easier to run various Go tool (as mentioned in the [`Best Practices for Industrial Programming`](https://www.youtube.com/watch?v=PTE4VJIdHPg) from GopherCon EU 2018).
+当你的根目录包含一些非Go组件和目录，它也可以在一个地方将Go代码分组，从而更容易运行各种Go工具（如[`工业编程最佳实践`](https://www.youtube.com/watch?v=PTE4VJIdHPg)中所述）。
 
-Note that this is not a universally accepted pattern and for every popular repo that uses it you can find 10 that don't. It's up to you to decide if you want to use this pattern or not. Regardless of whether or not it's a good pattern more people will know what you mean than not. It is a bit confusing for new Go devs, but it's a pretty simple confusion to resolve and that's one of the goals for this project layout repo.
+注意这个不是普遍接受的模式并且对于使用它的流行项目，你可能找不到10个。由你决定是否要使用这个模式。无论它是否是一个好的模式，更多的人会知道你的想法。它对于新Go开发者有点困惑，但解决这个问题非常简单，这也是该项目层的目标之一。
 
-Examples:
+例子:
 
 * https://github.com/prometheus/prometheus/tree/master/pkg
 * https://github.com/istio/istio/tree/master/pkg
